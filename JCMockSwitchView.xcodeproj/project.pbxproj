@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC4821892608717800DFC9BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4821882608717800DFC9BE /* AppDelegate.m */; };
+		FC48218C2608717800DFC9BE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC48218B2608717800DFC9BE /* SceneDelegate.m */; };
+		FC48218F2608717800DFC9BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC48218E2608717800DFC9BE /* ViewController.m */; };
+		FC4821922608717800DFC9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4821902608717800DFC9BE /* Main.storyboard */; };
+		FC4821942608717B00DFC9BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4821932608717B00DFC9BE /* Assets.xcassets */; };
+		FC4821972608717B00DFC9BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4821952608717B00DFC9BE /* LaunchScreen.storyboard */; };
+		FC48219A2608717B00DFC9BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4821992608717B00DFC9BE /* main.m */; };
+		FC4821A42608717C00DFC9BE /* JCMockSwitchViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4821A32608717C00DFC9BE /* JCMockSwitchViewTests.m */; };
+		FC4821AF2608717C00DFC9BE /* JCMockSwitchViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4821AE2608717C00DFC9BE /* JCMockSwitchViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC4821A02608717C00DFC9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC48217C2608717800DFC9BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4821832608717800DFC9BE;
+			remoteInfo = JCMockSwitchView;
+		};
+		FC4821AB2608717C00DFC9BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC48217C2608717800DFC9BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4821832608717800DFC9BE;
+			remoteInfo = JCMockSwitchView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC4821842608717800DFC9BE /* JCMockSwitchView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCMockSwitchView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4821872608717800DFC9BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC4821882608717800DFC9BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC48218A2608717800DFC9BE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FC48218B2608717800DFC9BE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FC48218D2608717800DFC9BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC48218E2608717800DFC9BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC4821912608717800DFC9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC4821932608717B00DFC9BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC4821962608717B00DFC9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC4821982608717B00DFC9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4821992608717B00DFC9BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC48219F2608717C00DFC9BE /* JCMockSwitchViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCMockSwitchViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4821A32608717C00DFC9BE /* JCMockSwitchViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCMockSwitchViewTests.m; sourceTree = "<group>"; };
+		FC4821A52608717C00DFC9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4821AA2608717C00DFC9BE /* JCMockSwitchViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCMockSwitchViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4821AE2608717C00DFC9BE /* JCMockSwitchViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCMockSwitchViewUITests.m; sourceTree = "<group>"; };
+		FC4821B02608717C00DFC9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC4821812608717800DFC9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC48219C2608717C00DFC9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4821A72608717C00DFC9BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC48217B2608717800DFC9BE = {
+			isa = PBXGroup;
+			children = (
+				FC4821862608717800DFC9BE /* JCMockSwitchView */,
+				FC4821A22608717C00DFC9BE /* JCMockSwitchViewTests */,
+				FC4821AD2608717C00DFC9BE /* JCMockSwitchViewUITests */,
+				FC4821852608717800DFC9BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC4821852608717800DFC9BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4821842608717800DFC9BE /* JCMockSwitchView.app */,
+				FC48219F2608717C00DFC9BE /* JCMockSwitchViewTests.xctest */,
+				FC4821AA2608717C00DFC9BE /* JCMockSwitchViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC4821862608717800DFC9BE /* JCMockSwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				FC4821872608717800DFC9BE /* AppDelegate.h */,
+				FC4821882608717800DFC9BE /* AppDelegate.m */,
+				FC48218A2608717800DFC9BE /* SceneDelegate.h */,
+				FC48218B2608717800DFC9BE /* SceneDelegate.m */,
+				FC48218D2608717800DFC9BE /* ViewController.h */,
+				FC48218E2608717800DFC9BE /* ViewController.m */,
+				FC4821902608717800DFC9BE /* Main.storyboard */,
+				FC4821932608717B00DFC9BE /* Assets.xcassets */,
+				FC4821952608717B00DFC9BE /* LaunchScreen.storyboard */,
+				FC4821982608717B00DFC9BE /* Info.plist */,
+				FC4821992608717B00DFC9BE /* main.m */,
+			);
+			path = JCMockSwitchView;
+			sourceTree = "<group>";
+		};
+		FC4821A22608717C00DFC9BE /* JCMockSwitchViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4821A32608717C00DFC9BE /* JCMockSwitchViewTests.m */,
+				FC4821A52608717C00DFC9BE /* Info.plist */,
+			);
+			path = JCMockSwitchViewTests;
+			sourceTree = "<group>";
+		};
+		FC4821AD2608717C00DFC9BE /* JCMockSwitchViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4821AE2608717C00DFC9BE /* JCMockSwitchViewUITests.m */,
+				FC4821B02608717C00DFC9BE /* Info.plist */,
+			);
+			path = JCMockSwitchViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC4821832608717800DFC9BE /* JCMockSwitchView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4821B32608717C00DFC9BE /* Build configuration list for PBXNativeTarget "JCMockSwitchView" */;
+			buildPhases = (
+				FC4821802608717800DFC9BE /* Sources */,
+				FC4821812608717800DFC9BE /* Frameworks */,
+				FC4821822608717800DFC9BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCMockSwitchView;
+			productName = JCMockSwitchView;
+			productReference = FC4821842608717800DFC9BE /* JCMockSwitchView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC48219E2608717C00DFC9BE /* JCMockSwitchViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4821B62608717C00DFC9BE /* Build configuration list for PBXNativeTarget "JCMockSwitchViewTests" */;
+			buildPhases = (
+				FC48219B2608717C00DFC9BE /* Sources */,
+				FC48219C2608717C00DFC9BE /* Frameworks */,
+				FC48219D2608717C00DFC9BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4821A12608717C00DFC9BE /* PBXTargetDependency */,
+			);
+			name = JCMockSwitchViewTests;
+			productName = JCMockSwitchViewTests;
+			productReference = FC48219F2608717C00DFC9BE /* JCMockSwitchViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC4821A92608717C00DFC9BE /* JCMockSwitchViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4821B92608717C00DFC9BE /* Build configuration list for PBXNativeTarget "JCMockSwitchViewUITests" */;
+			buildPhases = (
+				FC4821A62608717C00DFC9BE /* Sources */,
+				FC4821A72608717C00DFC9BE /* Frameworks */,
+				FC4821A82608717C00DFC9BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4821AC2608717C00DFC9BE /* PBXTargetDependency */,
+			);
+			name = JCMockSwitchViewUITests;
+			productName = JCMockSwitchViewUITests;
+			productReference = FC4821AA2608717C00DFC9BE /* JCMockSwitchViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC48217C2608717800DFC9BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FC4821832608717800DFC9BE = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FC48219E2608717C00DFC9BE = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FC4821832608717800DFC9BE;
+					};
+					FC4821A92608717C00DFC9BE = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FC4821832608717800DFC9BE;
+					};
+				};
+			};
+			buildConfigurationList = FC48217F2608717800DFC9BE /* Build configuration list for PBXProject "JCMockSwitchView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC48217B2608717800DFC9BE;
+			productRefGroup = FC4821852608717800DFC9BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC4821832608717800DFC9BE /* JCMockSwitchView */,
+				FC48219E2608717C00DFC9BE /* JCMockSwitchViewTests */,
+				FC4821A92608717C00DFC9BE /* JCMockSwitchViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC4821822608717800DFC9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4821972608717B00DFC9BE /* LaunchScreen.storyboard in Resources */,
+				FC4821942608717B00DFC9BE /* Assets.xcassets in Resources */,
+				FC4821922608717800DFC9BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC48219D2608717C00DFC9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4821A82608717C00DFC9BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC4821802608717800DFC9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC48218F2608717800DFC9BE /* ViewController.m in Sources */,
+				FC4821892608717800DFC9BE /* AppDelegate.m in Sources */,
+				FC48219A2608717B00DFC9BE /* main.m in Sources */,
+				FC48218C2608717800DFC9BE /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC48219B2608717C00DFC9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4821A42608717C00DFC9BE /* JCMockSwitchViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4821A62608717C00DFC9BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4821AF2608717C00DFC9BE /* JCMockSwitchViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4821A12608717C00DFC9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4821832608717800DFC9BE /* JCMockSwitchView */;
+			targetProxy = FC4821A02608717C00DFC9BE /* PBXContainerItemProxy */;
+		};
+		FC4821AC2608717C00DFC9BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4821832608717800DFC9BE /* JCMockSwitchView */;
+			targetProxy = FC4821AB2608717C00DFC9BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC4821902608717800DFC9BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4821912608717800DFC9BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC4821952608717B00DFC9BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4821962608717B00DFC9BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC4821B12608717C00DFC9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC4821B22608717C00DFC9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC4821B42608717C00DFC9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6K9Q22JTP;
+				INFOPLIST_FILE = JCMockSwitchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjhc.JCMockSwitchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC4821B52608717C00DFC9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6K9Q22JTP;
+				INFOPLIST_FILE = JCMockSwitchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjhc.JCMockSwitchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC4821B72608717C00DFC9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6K9Q22JTP;
+				INFOPLIST_FILE = JCMockSwitchViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjhc.JCMockSwitchViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCMockSwitchView.app/JCMockSwitchView";
+			};
+			name = Debug;
+		};
+		FC4821B82608717C00DFC9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6K9Q22JTP;
+				INFOPLIST_FILE = JCMockSwitchViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjhc.JCMockSwitchViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCMockSwitchView.app/JCMockSwitchView";
+			};
+			name = Release;
+		};
+		FC4821BA2608717C00DFC9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6K9Q22JTP;
+				INFOPLIST_FILE = JCMockSwitchViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjhc.JCMockSwitchViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JCMockSwitchView;
+			};
+			name = Debug;
+		};
+		FC4821BB2608717C00DFC9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6K9Q22JTP;
+				INFOPLIST_FILE = JCMockSwitchViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjhc.JCMockSwitchViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JCMockSwitchView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC48217F2608717800DFC9BE /* Build configuration list for PBXProject "JCMockSwitchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4821B12608717C00DFC9BE /* Debug */,
+				FC4821B22608717C00DFC9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4821B32608717C00DFC9BE /* Build configuration list for PBXNativeTarget "JCMockSwitchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4821B42608717C00DFC9BE /* Debug */,
+				FC4821B52608717C00DFC9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4821B62608717C00DFC9BE /* Build configuration list for PBXNativeTarget "JCMockSwitchViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4821B72608717C00DFC9BE /* Debug */,
+				FC4821B82608717C00DFC9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4821B92608717C00DFC9BE /* Build configuration list for PBXNativeTarget "JCMockSwitchViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4821BA2608717C00DFC9BE /* Debug */,
+				FC4821BB2608717C00DFC9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC48217C2608717800DFC9BE /* Project object */;
+}
