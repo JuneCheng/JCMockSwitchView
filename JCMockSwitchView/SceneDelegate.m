@@ -6,8 +6,12 @@
 //
 
 #import "SceneDelegate.h"
+#import "ViewController.h"
+#import "JCMockSwitchView.h"
 
 @interface SceneDelegate ()
+
+@property (nonatomic, strong) JCMockSwitchView *mockView;///<
 
 @end
 
@@ -15,9 +19,21 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
-    // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-    // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-    // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    UIWindowScene *windowScene = (UIWindowScene *)scene;
+    self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
+    self.window.frame = windowScene.coordinateSpace.bounds;
+    self.window.rootViewController = [ViewController new];
+    [self.window makeKeyAndVisible];
+    
+    [self addMockView];
+}
+
+- (void)addMockView {
+    // DEBUG模式下显示模拟数据切换按钮
+    self.mockView = [[JCMockSwitchView alloc] initWithFrame:CGRectMake(10, 20*5, 0, 0)];
+#ifdef DEBUG
+    [[UIApplication sharedApplication].keyWindow addSubview:self.mockView];
+#endif
 }
 
 

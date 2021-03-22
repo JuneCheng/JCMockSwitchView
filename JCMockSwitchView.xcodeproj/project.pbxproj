@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC166DBD2608B2C200FB4394 /* UIView+GestureCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = FC166DBC2608B2C200FB4394 /* UIView+GestureCallback.m */; };
+		FC166DC32608B2C900FB4394 /* JCMockSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC166DC12608B2C900FB4394 /* JCMockSwitchView.m */; };
+		FC166DD02608B66900FB4394 /* ClientRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC166DCF2608B66900FB4394 /* ClientRequest.m */; };
+		FC166DD82608B77200FB4394 /* login.txt in Resources */ = {isa = PBXBuildFile; fileRef = FC166DD72608B77200FB4394 /* login.txt */; };
+		FC166DE42608BB6300FB4394 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FC166DE22608BB6200FB4394 /* NSString+Extension.m */; };
 		FC4821892608717800DFC9BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4821882608717800DFC9BE /* AppDelegate.m */; };
 		FC48218C2608717800DFC9BE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC48218B2608717800DFC9BE /* SceneDelegate.m */; };
 		FC48218F2608717800DFC9BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC48218E2608717800DFC9BE /* ViewController.m */; };
-		FC4821922608717800DFC9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4821902608717800DFC9BE /* Main.storyboard */; };
 		FC4821942608717B00DFC9BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4821932608717B00DFC9BE /* Assets.xcassets */; };
 		FC4821972608717B00DFC9BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4821952608717B00DFC9BE /* LaunchScreen.storyboard */; };
 		FC48219A2608717B00DFC9BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4821992608717B00DFC9BE /* main.m */; };
@@ -36,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC166DBB2608B2C200FB4394 /* UIView+GestureCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GestureCallback.h"; sourceTree = "<group>"; };
+		FC166DBC2608B2C200FB4394 /* UIView+GestureCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GestureCallback.m"; sourceTree = "<group>"; };
+		FC166DC12608B2C900FB4394 /* JCMockSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCMockSwitchView.m; sourceTree = "<group>"; };
+		FC166DC22608B2C900FB4394 /* JCMockSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCMockSwitchView.h; sourceTree = "<group>"; };
+		FC166DC72608B32000FB4394 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		FC166DCE2608B66900FB4394 /* ClientRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientRequest.h; sourceTree = "<group>"; };
+		FC166DCF2608B66900FB4394 /* ClientRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientRequest.m; sourceTree = "<group>"; };
+		FC166DD72608B77200FB4394 /* login.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = login.txt; sourceTree = "<group>"; };
+		FC166DE22608BB6200FB4394 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		FC166DE32608BB6300FB4394 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		FC4821842608717800DFC9BE /* JCMockSwitchView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCMockSwitchView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4821872608717800DFC9BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC4821882608717800DFC9BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,7 +57,6 @@
 		FC48218B2608717800DFC9BE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		FC48218D2608717800DFC9BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FC48218E2608717800DFC9BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FC4821912608717800DFC9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC4821932608717B00DFC9BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC4821962608717B00DFC9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC4821982608717B00DFC9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +94,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC166DBA2608B2AF00FB4394 /* MockSwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				FC166DC72608B32000FB4394 /* Constants.h */,
+				FC166DC22608B2C900FB4394 /* JCMockSwitchView.h */,
+				FC166DC12608B2C900FB4394 /* JCMockSwitchView.m */,
+				FC166DBB2608B2C200FB4394 /* UIView+GestureCallback.h */,
+				FC166DBC2608B2C200FB4394 /* UIView+GestureCallback.m */,
+			);
+			path = MockSwitchView;
+			sourceTree = "<group>";
+		};
 		FC48217B2608717800DFC9BE = {
 			isa = PBXGroup;
 			children = (
@@ -104,13 +129,18 @@
 		FC4821862608717800DFC9BE /* JCMockSwitchView */ = {
 			isa = PBXGroup;
 			children = (
+				FC166DBA2608B2AF00FB4394 /* MockSwitchView */,
 				FC4821872608717800DFC9BE /* AppDelegate.h */,
 				FC4821882608717800DFC9BE /* AppDelegate.m */,
 				FC48218A2608717800DFC9BE /* SceneDelegate.h */,
 				FC48218B2608717800DFC9BE /* SceneDelegate.m */,
 				FC48218D2608717800DFC9BE /* ViewController.h */,
 				FC48218E2608717800DFC9BE /* ViewController.m */,
-				FC4821902608717800DFC9BE /* Main.storyboard */,
+				FC166DCE2608B66900FB4394 /* ClientRequest.h */,
+				FC166DCF2608B66900FB4394 /* ClientRequest.m */,
+				FC166DE32608BB6300FB4394 /* NSString+Extension.h */,
+				FC166DE22608BB6200FB4394 /* NSString+Extension.m */,
+				FC166DD72608B77200FB4394 /* login.txt */,
 				FC4821932608717B00DFC9BE /* Assets.xcassets */,
 				FC4821952608717B00DFC9BE /* LaunchScreen.storyboard */,
 				FC4821982608717B00DFC9BE /* Info.plist */,
@@ -240,8 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC4821972608717B00DFC9BE /* LaunchScreen.storyboard in Resources */,
+				FC166DD82608B77200FB4394 /* login.txt in Resources */,
 				FC4821942608717B00DFC9BE /* Assets.xcassets in Resources */,
-				FC4821922608717800DFC9BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +296,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC166DD02608B66900FB4394 /* ClientRequest.m in Sources */,
 				FC48218F2608717800DFC9BE /* ViewController.m in Sources */,
 				FC4821892608717800DFC9BE /* AppDelegate.m in Sources */,
+				FC166DBD2608B2C200FB4394 /* UIView+GestureCallback.m in Sources */,
+				FC166DC32608B2C900FB4394 /* JCMockSwitchView.m in Sources */,
 				FC48219A2608717B00DFC9BE /* main.m in Sources */,
 				FC48218C2608717800DFC9BE /* SceneDelegate.m in Sources */,
+				FC166DE42608BB6300FB4394 /* NSString+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +339,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FC4821902608717800DFC9BE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC4821912608717800DFC9BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC4821952608717B00DFC9BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6K9Q22JTP;
 				INFOPLIST_FILE = JCMockSwitchView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +489,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6K9Q22JTP;
 				INFOPLIST_FILE = JCMockSwitchView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
