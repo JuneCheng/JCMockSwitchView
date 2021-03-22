@@ -2,7 +2,7 @@
 模拟/真实数据切换
 
 # 效果图
-<img src="https://user-images.githubusercontent.com/36223198/111989174-626cb980-8b4c-11eb-86d7-8a69271079bd.png" width="250" /> <img src="https://user-images.githubusercontent.com/36223198/111989178-64367d00-8b4c-11eb-9e05-4c5b8e0ea093.png" width="250" />
+<img src="https://user-images.githubusercontent.com/36223198/111989174-626cb980-8b4c-11eb-86d7-8a69271079bd.png" width="250" /> <img src="https://user-images.githubusercontent.com/36223198/111989355-9d6eed00-8b4c-11eb-9295-c97b5c07b849.png" width="250" />
 
 
 # 使用方法
